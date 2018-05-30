@@ -1,6 +1,6 @@
 {
-  "name": "react-form",
-  "version": "3.5.3",
+  "name": "maxsolovev-react-form",
+  "version": "1.0.2",
   "description": "React Form is a lightweight framework and utility for building powerful forms in React applications.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -51,7 +51,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-tools/react-form"
+    "url": "https://github.com/maxsolovev/react-form"
   },
   "license": "MIT",
   "dependencies": {
