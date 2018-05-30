@@ -83,7 +83,7 @@ class Field extends React.Component {
 
     // Wrap the formApi methods to reflect the new field context
     this.fieldApi = {
-      setValue: value => formApi.setValue(fullField, value),
+      setValue: (value, field) => formApi.setValue(fullField, value),
       setTouched: touched => formApi.setTouched(fullField, touched),
       setError: error => formApi.setError(fullField, error),
       setWarning: warning => formApi.setWarning(fullField, warning),
